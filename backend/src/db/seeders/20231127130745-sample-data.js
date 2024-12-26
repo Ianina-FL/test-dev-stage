@@ -11,43 +11,55 @@ const Notes = db.notes;
 
 const ActivitiesData = [
   {
-    description: 'Jean Piaget',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    description: 'Comte de Buffon',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    description: 'Wilhelm Wundt',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
     description: 'Anton van Leeuwenhoek',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'James Clerk Maxwell',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Lucretius',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Sheldon Glashow',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Enrico Fermi',
 
     start_time: new Date(),
 
@@ -61,17 +73,7 @@ const ActivitiesData = [
 
 const ContactsData = [
   {
-    first_name: 'Jean Baptiste Lamarck',
-
-    last_name: 'Hans Selye',
-
-    email: 'Francis Galton',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    first_name: 'Trofim Lysenko',
+    first_name: 'Justus Liebig',
 
     last_name: 'Louis Victor de Broglie',
 
@@ -81,21 +83,41 @@ const ContactsData = [
   },
 
   {
-    first_name: 'Albert Einstein',
+    first_name: 'Tycho Brahe',
 
-    last_name: 'Anton van Leeuwenhoek',
+    last_name: 'Dmitri Mendeleev',
 
-    email: 'Hans Bethe',
+    email: 'Werner Heisenberg',
 
     // type code here for "relation_one" field
   },
 
   {
-    first_name: 'Emil Kraepelin',
+    first_name: 'Paul Dirac',
 
-    last_name: 'Michael Faraday',
+    last_name: 'Heike Kamerlingh Onnes',
 
-    email: 'Neils Bohr',
+    email: 'Emil Kraepelin',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    first_name: 'Alfred Wegener',
+
+    last_name: 'James Clerk Maxwell',
+
+    email: 'Charles Lyell',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    first_name: 'Alfred Binet',
+
+    last_name: 'Max Born',
+
+    email: 'Carl Linnaeus',
 
     // type code here for "relation_one" field
   },
@@ -103,33 +125,9 @@ const ContactsData = [
 
 const LeadsData = [
   {
-    name: 'Michael Faraday',
+    name: 'John Bardeen',
 
-    status: 'Qualified',
-
-    category: 'Corporate',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_many" field
-  },
-
-  {
-    name: 'Robert Koch',
-
-    status: 'Qualified',
-
-    category: 'Corporate',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_many" field
-  },
-
-  {
-    name: 'Emil Kraepelin',
-
-    status: 'Contacted',
+    status: 'New',
 
     category: 'Individual',
 
@@ -139,7 +137,43 @@ const LeadsData = [
   },
 
   {
+    name: 'Dmitri Mendeleev',
+
+    status: 'New',
+
+    category: 'Corporate',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_many" field
+  },
+
+  {
+    name: 'Ludwig Boltzmann',
+
+    status: 'Contacted',
+
+    category: 'Corporate',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_many" field
+  },
+
+  {
     name: 'Werner Heisenberg',
+
+    status: 'Qualified',
+
+    category: 'Individual',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_many" field
+  },
+
+  {
+    name: 'Charles Darwin',
 
     status: 'New',
 
@@ -153,7 +187,7 @@ const LeadsData = [
 
 const NotesData = [
   {
-    content: 'August Kekule',
+    content: 'Ludwig Boltzmann',
 
     // type code here for "relation_one" field
 
@@ -161,7 +195,7 @@ const NotesData = [
   },
 
   {
-    content: 'Edward O. Wilson',
+    content: 'John Dalton',
 
     // type code here for "relation_one" field
 
@@ -169,7 +203,7 @@ const NotesData = [
   },
 
   {
-    content: 'Stephen Hawking',
+    content: 'Gregor Mendel',
 
     // type code here for "relation_one" field
 
@@ -177,7 +211,15 @@ const NotesData = [
   },
 
   {
-    content: 'Dmitri Mendeleev',
+    content: 'Neils Bohr',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    content: 'James Clerk Maxwell',
 
     // type code here for "relation_one" field
 
@@ -231,6 +273,17 @@ async function associateActivityWithUser() {
   if (Activity3?.setUser) {
     await Activity3.setUser(relatedUser3);
   }
+
+  const relatedUser4 = await Users.findOne({
+    offset: Math.floor(Math.random() * (await Users.count())),
+  });
+  const Activity4 = await Activities.findOne({
+    order: [['id', 'ASC']],
+    offset: 4,
+  });
+  if (Activity4?.setUser) {
+    await Activity4.setUser(relatedUser4);
+  }
 }
 
 async function associateActivityWithLead() {
@@ -276,6 +329,17 @@ async function associateActivityWithLead() {
   });
   if (Activity3?.setLead) {
     await Activity3.setLead(relatedLead3);
+  }
+
+  const relatedLead4 = await Leads.findOne({
+    offset: Math.floor(Math.random() * (await Leads.count())),
+  });
+  const Activity4 = await Activities.findOne({
+    order: [['id', 'ASC']],
+    offset: 4,
+  });
+  if (Activity4?.setLead) {
+    await Activity4.setLead(relatedLead4);
   }
 }
 
@@ -323,6 +387,17 @@ async function associateContactWithLead() {
   if (Contact3?.setLead) {
     await Contact3.setLead(relatedLead3);
   }
+
+  const relatedLead4 = await Leads.findOne({
+    offset: Math.floor(Math.random() * (await Leads.count())),
+  });
+  const Contact4 = await Contacts.findOne({
+    order: [['id', 'ASC']],
+    offset: 4,
+  });
+  if (Contact4?.setLead) {
+    await Contact4.setLead(relatedLead4);
+  }
 }
 
 async function associateLeadWithOwner() {
@@ -368,6 +443,17 @@ async function associateLeadWithOwner() {
   });
   if (Lead3?.setOwner) {
     await Lead3.setOwner(relatedOwner3);
+  }
+
+  const relatedOwner4 = await Users.findOne({
+    offset: Math.floor(Math.random() * (await Users.count())),
+  });
+  const Lead4 = await Leads.findOne({
+    order: [['id', 'ASC']],
+    offset: 4,
+  });
+  if (Lead4?.setOwner) {
+    await Lead4.setOwner(relatedOwner4);
   }
 }
 
@@ -417,6 +503,17 @@ async function associateNoteWithUser() {
   if (Note3?.setUser) {
     await Note3.setUser(relatedUser3);
   }
+
+  const relatedUser4 = await Users.findOne({
+    offset: Math.floor(Math.random() * (await Users.count())),
+  });
+  const Note4 = await Notes.findOne({
+    order: [['id', 'ASC']],
+    offset: 4,
+  });
+  if (Note4?.setUser) {
+    await Note4.setUser(relatedUser4);
+  }
 }
 
 async function associateNoteWithLead() {
@@ -462,6 +559,17 @@ async function associateNoteWithLead() {
   });
   if (Note3?.setLead) {
     await Note3.setLead(relatedLead3);
+  }
+
+  const relatedLead4 = await Leads.findOne({
+    offset: Math.floor(Math.random() * (await Leads.count())),
+  });
+  const Note4 = await Notes.findOne({
+    order: [['id', 'ASC']],
+    offset: 4,
+  });
+  if (Note4?.setLead) {
+    await Note4.setLead(relatedLead4);
   }
 }
 

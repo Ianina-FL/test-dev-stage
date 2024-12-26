@@ -187,7 +187,7 @@ export default function WebSite() {
 
         <PricingSection
           projectName={'test-dev-stage'}
-          withBg={0}
+          withBg={1}
           features={pricing_features}
           description={description}
         />
