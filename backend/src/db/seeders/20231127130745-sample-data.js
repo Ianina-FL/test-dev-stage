@@ -11,7 +11,7 @@ const Notes = db.notes;
 
 const ActivitiesData = [
   {
-    description: 'Ernest Rutherford',
+    description: 'Emil Kraepelin',
 
     start_time: new Date(),
 
@@ -23,7 +23,7 @@ const ActivitiesData = [
   },
 
   {
-    description: 'Carl Linnaeus',
+    description: 'Marie Curie',
 
     start_time: new Date(),
 
@@ -35,7 +35,7 @@ const ActivitiesData = [
   },
 
   {
-    description: 'August Kekule',
+    description: 'Louis Pasteur',
 
     start_time: new Date(),
 
@@ -49,31 +49,31 @@ const ActivitiesData = [
 
 const ContactsData = [
   {
-    first_name: 'Richard Feynman',
+    first_name: 'Charles Lyell',
 
-    last_name: 'Edward Teller',
+    last_name: 'Werner Heisenberg',
 
-    email: 'Ludwig Boltzmann',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    first_name: 'Leonard Euler',
-
-    last_name: 'Franz Boas',
-
-    email: 'Arthur Eddington',
+    email: 'Marcello Malpighi',
 
     // type code here for "relation_one" field
   },
 
   {
-    first_name: 'Justus Liebig',
+    first_name: 'Hans Bethe',
 
-    last_name: 'Edward Teller',
+    last_name: 'Stephen Hawking',
 
-    email: 'Ludwig Boltzmann',
+    email: 'Francis Galton',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    first_name: 'Albert Einstein',
+
+    last_name: 'James Clerk Maxwell',
+
+    email: 'James Clerk Maxwell',
 
     // type code here for "relation_one" field
   },
@@ -81,11 +81,11 @@ const ContactsData = [
 
 const LeadsData = [
   {
-    name: 'Ernst Mayr',
+    name: 'Thomas Hunt Morgan',
 
     status: 'Lost',
 
-    category: 'Corporate',
+    category: 'Government',
 
     // type code here for "relation_one" field
 
@@ -93,11 +93,11 @@ const LeadsData = [
   },
 
   {
-    name: 'Ludwig Boltzmann',
+    name: 'Emil Fischer',
 
     status: 'New',
 
-    category: 'Corporate',
+    category: 'Government',
 
     // type code here for "relation_one" field
 
@@ -105,9 +105,9 @@ const LeadsData = [
   },
 
   {
-    name: 'Isaac Newton',
+    name: 'Antoine Laurent Lavoisier',
 
-    status: 'New',
+    status: 'Qualified',
 
     category: 'Individual',
 
@@ -119,7 +119,7 @@ const LeadsData = [
 
 const NotesData = [
   {
-    content: 'Galileo Galilei',
+    content: 'Hans Selye',
 
     // type code here for "relation_one" field
 
@@ -127,7 +127,7 @@ const NotesData = [
   },
 
   {
-    content: 'Isaac Newton',
+    content: 'Trofim Lysenko',
 
     // type code here for "relation_one" field
 
@@ -135,7 +135,7 @@ const NotesData = [
   },
 
   {
-    content: 'Johannes Kepler',
+    content: 'Ludwig Boltzmann',
 
     // type code here for "relation_one" field
 
