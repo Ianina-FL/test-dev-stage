@@ -139,7 +139,7 @@ export default function WebSite() {
         <FeaturesSection
           projectName={'test-dev-stage'}
           image={['CRM dashboard with analytics']}
-          withBg={0}
+          withBg={1}
           features={features_points}
           mainText={`Unlock Efficiency with ${projectName} Features`}
           subTitle={`Discover how ${projectName} enhances your law firm's operations with powerful features designed for seamless collaboration and lead management.`}
