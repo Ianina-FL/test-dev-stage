@@ -11,43 +11,43 @@ const Notes = db.notes;
 
 const ActivitiesData = [
   {
-    description: 'Gustav Kirchhoff',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    description: 'Francis Crick',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    description: 'Frederick Gowland Hopkins',
-
-    start_time: new Date(),
-
-    end_time: new Date(),
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_one" field
-  },
-
-  {
     description: 'Karl Landsteiner',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Robert Koch',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Ernst Haeckel',
+
+    start_time: new Date(),
+
+    end_time: new Date(),
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    description: 'Johannes Kepler',
 
     start_time: new Date(),
 
@@ -61,41 +61,41 @@ const ActivitiesData = [
 
 const ContactsData = [
   {
-    first_name: 'Linus Pauling',
+    first_name: 'Claude Levi-Strauss',
 
-    last_name: 'Joseph J. Thomson',
+    last_name: 'Albert Einstein',
 
-    email: 'James Watson',
-
-    // type code here for "relation_one" field
-  },
-
-  {
-    first_name: 'Charles Darwin',
-
-    last_name: 'Willard Libby',
-
-    email: 'Albert Einstein',
+    email: 'John von Neumann',
 
     // type code here for "relation_one" field
   },
 
   {
-    first_name: 'Isaac Newton',
+    first_name: 'Christiaan Huygens',
 
-    last_name: 'Michael Faraday',
+    last_name: 'Alfred Binet',
 
-    email: 'William Herschel',
+    email: 'Edward O. Wilson',
 
     // type code here for "relation_one" field
   },
 
   {
-    first_name: 'Michael Faraday',
+    first_name: 'Charles Sherrington',
 
-    last_name: 'Enrico Fermi',
+    last_name: 'William Harvey',
 
-    email: 'Leonard Euler',
+    email: 'Konrad Lorenz',
+
+    // type code here for "relation_one" field
+  },
+
+  {
+    first_name: 'Johannes Kepler',
+
+    last_name: 'Comte de Buffon',
+
+    email: 'John Bardeen',
 
     // type code here for "relation_one" field
   },
@@ -103,19 +103,7 @@ const ContactsData = [
 
 const LeadsData = [
   {
-    name: 'Gustav Kirchhoff',
-
-    status: 'Qualified',
-
-    category: 'Individual',
-
-    // type code here for "relation_one" field
-
-    // type code here for "relation_many" field
-  },
-
-  {
-    name: 'Arthur Eddington',
+    name: 'Willard Libby',
 
     status: 'New',
 
@@ -127,11 +115,11 @@ const LeadsData = [
   },
 
   {
-    name: 'Willard Libby',
+    name: 'Stephen Hawking',
 
-    status: 'Qualified',
+    status: 'Lost',
 
-    category: 'Government',
+    category: 'Corporate',
 
     // type code here for "relation_one" field
 
@@ -139,7 +127,19 @@ const LeadsData = [
   },
 
   {
-    name: 'Albrecht von Haller',
+    name: 'Justus Liebig',
+
+    status: 'Qualified',
+
+    category: 'Individual',
+
+    // type code here for "relation_one" field
+
+    // type code here for "relation_many" field
+  },
+
+  {
+    name: 'Comte de Buffon',
 
     status: 'Contacted',
 
@@ -153,7 +153,7 @@ const LeadsData = [
 
 const NotesData = [
   {
-    content: 'Hans Selye',
+    content: 'Carl Gauss (Karl Friedrich Gauss)',
 
     // type code here for "relation_one" field
 
@@ -161,7 +161,7 @@ const NotesData = [
   },
 
   {
-    content: 'Konrad Lorenz',
+    content: 'Karl Landsteiner',
 
     // type code here for "relation_one" field
 
@@ -169,7 +169,7 @@ const NotesData = [
   },
 
   {
-    content: 'Heike Kamerlingh Onnes',
+    content: 'Comte de Buffon',
 
     // type code here for "relation_one" field
 
@@ -177,7 +177,7 @@ const NotesData = [
   },
 
   {
-    content: 'Archimedes',
+    content: 'Lucretius',
 
     // type code here for "relation_one" field
 

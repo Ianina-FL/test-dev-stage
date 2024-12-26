@@ -148,7 +148,7 @@ export default function WebSite() {
         <FeaturesSection
           projectName={'test-dev-stage'}
           image={['CRM features overview illustration']}
-          withBg={0}
+          withBg={1}
           features={features_points}
           mainText={`Explore ${projectName} Features`}
           subTitle={`Discover the powerful features of ${projectName} that streamline your law firm's operations and enhance collaboration across departments.`}
