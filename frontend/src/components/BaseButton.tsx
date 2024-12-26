@@ -31,7 +31,7 @@ export default function BaseButton({
   href,
   target,
   type,
-  color = 'white',
+  color = 'green',
   className = '',
   iconClassName = '',
   asAnchor = false,
