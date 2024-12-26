@@ -37,7 +37,7 @@
   .checkbox input[type='checkbox']:focus + .check,
   .radio input[type='radio']:focus + .check,
   .switch input[type='checkbox']:focus + .check {
-    --tw-ring-color: #14142a;
+    --tw-ring-color: #0707f5;
   }
 }
 
@@ -82,13 +82,13 @@
   }
 
   .focus\:ring:focus {
-    --tw-ring-color: #4e4b66;
+    --tw-ring-color: #0707f5;
   }
 
   .checkbox input[type='checkbox']:focus + .check,
   .radio input[type='radio']:focus + .check,
   .switch input[type='checkbox']:focus + .check {
-    --tw-ring-color: #4e4b66;
+    --tw-ring-color: #0707f5;
   }
 
   .text-blue-500 {
