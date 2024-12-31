@@ -60,7 +60,7 @@ export default function WebSite() {
     {
       question: 'Why did the chicken cross the Möbius strip?',
       answer:
-        "To get to the same side.",
+        "To get to the same side!",
     },
     {
       question: "How can ${projectName} improve my firm's efficiency?",
