@@ -58,9 +58,9 @@ export default function WebSite() {
 
   const faqs = [
     {
-      question: 'What features does ${projectName} offer?',
+      question: 'Why did the chicken cross the Möbius strip?',
       answer:
-        "${projectName} offers lead management, collaborative workspace, custom reporting, and secure data management, among other features, to streamline your law firm's operations.",
+        "To get to the same side.",
     },
     {
       question: "How can ${projectName} improve my firm's efficiency?",
